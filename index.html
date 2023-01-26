@@ -23,53 +23,103 @@
     <title>Portfolio</title>
   </head>
   <body class="bg-light">
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">My Logo</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav ms-auto flex-nowrap">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-            
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <!-- ----------------------------------------The Nav Bar------------------------------------- -->
+    <section class="bg-white">
+      <header class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid px-5">
+            <a class="navbar-brand fs-5 fw-bolder text-primary" href="#"
+              >My Logo</a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ms-auto flex-nowrap">
+                <li class="nav-item">
+                  <a
+                    class="nav-link fs-6 fw-bold text-dark"
+                    aria-current="page"
+                    href="#portfolio"
+                    >Portfolio</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fs-6 fw-bold text-dark mx-5" href="#about"
+                    >About</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fs-6 fw-bold text-dark" href="#contact"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+    </section>
+
+    <!-- ----------------------------------------The Home Page------------------------------------ -->
+
     <div class="container col-xxl-8 px-2 py-3 bg-white">
       <div class="row flex-lg-row align-items-left g-5 py-5">
-        
         <div class="col-lg-8">
-          <h1 class="display-5 fw-bold lh-1 mb-3">Responsive left-aligned hero with image</h1>
-          <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-          <h3 class="text-uppercase text-primary">Let's Connect</h3>
+          <h1 class="display-5 fw-bolder mb-3 lh-1 text-dark">
+            I’m Alexandra <br />
+            Glad to see you!
+          </h1>
+          <p class="lead text-dark fw-normal fs-6">
+            I’m a software developer! I can help you build a product , feature
+            or website Look through some of my work and experience! If you like
+            what you see and have a project you need coded, don’t hestiate to
+            contact me.
+          </p>
+          <h3 class="text-primary fw-normal fs-6 lh-6">LET'S CONNECT</h3>
           <div class="d-grid gap-1 d-md-flex justify-content-md-start">
             <ul class="list-group list-group-horizontal me-auto">
-              <li class="list-group-item border-0 "><img src="assets/images/twitter.svg" alt="Twitter logo"></li>
-              <li class="list-group-item border-0"><img src="assets/images/linkedin.svg" alt="Linkedin logo"></li>
-              <li class="list-group-item border-0"><img src="assets/images/medium.svg" alt="Medium logo"></li>              
-              <li class="list-group-item border-0"><img src="assets/images/git.svg" alt="Git logo"></li>
-              <li class="list-group-item border-0"><img src="assets/images/angelist.svg" alt="Angelist logo"></li>              
+              <li class="list-group-item border-0">
+                <img src="assets/images/twitter.svg" alt="Twitter logo" />
+              </li>
+              <li class="list-group-item border-0">
+                <img src="assets/images/linkedin.svg" alt="Linkedin logo" />
+              </li>
+              <li class="list-group-item border-0">
+                <img src="assets/images/medium.svg" alt="Medium logo" />
+              </li>
+              <li class="list-group-item border-0">
+                <img src="assets/images/git.svg" alt="Git logo" />
+              </li>
+              <li class="list-group-item border-0">
+                <img src="assets/images/angelist.svg" alt="Angelist logo" />
+              </li>
             </ul>
           </div>
         </div>
       </div>
     </div>
+
+    <!-- ----------------------------------------The Portfolio Page------------------------------------ -->
+
     <div class="container py-5">
       <!-- Card 1 Start -->
       <div class="card mb-3">
         <div class="row g-0">
           <div class="col-md-6">
-            <img src="assets/images/SnapshootPortfolio4.png" class="img-fluid rounded-start" alt="...">
+            <img
+              src="assets/images/SnapshootPortfolio4.png"
+              class="img-fluid rounded-start"
+              alt="..."
+            />
           </div>
           <div class="col-md-6">
             <div class="card-body">
@@ -77,11 +127,17 @@
               <div class="d-grid gap-1 d-md-flex justify-content-md-start">
                 <ul class="list-group list-group-horizontal me-auto">
                   <li class="list-group-item border-0">Cras justo odio</li>
-                  <li class="list-group-item border-0">Dapibus ac facilisis in</li>
+                  <li class="list-group-item border-0">
+                    Dapibus ac facilisis in
+                  </li>
                   <li class="list-group-item border-0">Morbi leo risus</li>
                 </ul>
               </div>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
               <div class="d-grid gap-1 d-md-flex justify-content-md-start">
                 <ul class="list-group list-group-horizontal me-auto">
                   <li class="list-group-item border-0">
@@ -91,7 +147,9 @@
                     <span class="badge rounded-pill bg-secondary">css</span>
                   </li>
                   <li class="list-group-item border-0">
-                    <span class="badge rounded-pill bg-secondary">JavaScript</span>
+                    <span class="badge rounded-pill bg-secondary"
+                      >JavaScript</span
+                    >
                   </li>
                 </ul>
               </div>
@@ -106,7 +164,11 @@
       <div class="card mb-3">
         <div class="row g-0">
           <div class="col-md-6 order-last">
-            <img src="assets/images/SnapshootPortfolio4.png" class="img-fluid rounded-start" alt="...">
+            <img
+              src="assets/images/SnapshootPortfolio4.png"
+              class="img-fluid rounded-start"
+              alt="..."
+            />
           </div>
           <div class="col-md-6">
             <div class="card-body">
@@ -114,11 +176,17 @@
               <div class="d-grid gap-1 d-md-flex justify-content-md-start">
                 <ul class="list-group list-group-horizontal me-auto">
                   <li class="list-group-item border-0">Cras justo odio</li>
-                  <li class="list-group-item border-0">Dapibus ac facilisis in</li>
+                  <li class="list-group-item border-0">
+                    Dapibus ac facilisis in
+                  </li>
                   <li class="list-group-item border-0">Morbi leo risus</li>
                 </ul>
               </div>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
               <div class="d-grid gap-1 d-md-flex justify-content-md-start">
                 <ul class="list-group list-group-horizontal me-auto">
                   <li class="list-group-item border-0">
@@ -128,7 +196,9 @@
                     <span class="badge rounded-pill bg-secondary">css</span>
                   </li>
                   <li class="list-group-item border-0">
-                    <span class="badge rounded-pill bg-secondary">JavaScript</span>
+                    <span class="badge rounded-pill bg-secondary"
+                      >JavaScript</span
+                    >
                   </li>
                 </ul>
               </div>
@@ -143,7 +213,11 @@
       <div class="card mb-3">
         <div class="row g-0">
           <div class="col-md-6">
-            <img src="assets/images/SnapshootPortfolio4.png" class="img-fluid rounded-start" alt="...">
+            <img
+              src="assets/images/SnapshootPortfolio4.png"
+              class="img-fluid rounded-start"
+              alt="..."
+            />
           </div>
           <div class="col-md-6">
             <div class="card-body">
@@ -151,11 +225,17 @@
               <div class="d-grid gap-1 d-md-flex justify-content-md-start">
                 <ul class="list-group list-group-horizontal me-auto">
                   <li class="list-group-item border-0">Cras justo odio</li>
-                  <li class="list-group-item border-0">Dapibus ac facilisis in</li>
+                  <li class="list-group-item border-0">
+                    Dapibus ac facilisis in
+                  </li>
                   <li class="list-group-item border-0">Morbi leo risus</li>
                 </ul>
               </div>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
               <div class="d-grid gap-1 d-md-flex justify-content-md-start">
                 <ul class="list-group list-group-horizontal me-auto">
                   <li class="list-group-item border-0">
@@ -165,7 +245,9 @@
                     <span class="badge rounded-pill bg-secondary">css</span>
                   </li>
                   <li class="list-group-item border-0">
-                    <span class="badge rounded-pill bg-secondary">JavaScript</span>
+                    <span class="badge rounded-pill bg-secondary"
+                      >JavaScript</span
+                    >
                   </li>
                 </ul>
               </div>
@@ -180,7 +262,11 @@
       <div class="card mb-3">
         <div class="row g-0">
           <div class="col-md-6 order-last">
-            <img src="assets/images/SnapshootPortfolio4.png" class="img-fluid rounded-start" alt="...">
+            <img
+              src="assets/images/SnapshootPortfolio4.png"
+              class="img-fluid rounded-start"
+              alt="..."
+            />
           </div>
           <div class="col-md-6">
             <div class="card-body">
@@ -188,11 +274,17 @@
               <div class="d-grid gap-1 d-md-flex justify-content-md-start">
                 <ul class="list-group list-group-horizontal me-auto">
                   <li class="list-group-item border-0">Cras justo odio</li>
-                  <li class="list-group-item border-0">Dapibus ac facilisis in</li>
+                  <li class="list-group-item border-0">
+                    Dapibus ac facilisis in
+                  </li>
                   <li class="list-group-item border-0">Morbi leo risus</li>
                 </ul>
               </div>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
               <div class="d-grid gap-1 d-md-flex justify-content-md-start">
                 <ul class="list-group list-group-horizontal me-auto">
                   <li class="list-group-item border-0">
@@ -202,7 +294,9 @@
                     <span class="badge rounded-pill bg-secondary">css</span>
                   </li>
                   <li class="list-group-item border-0">
-                    <span class="badge rounded-pill bg-secondary">JavaScript</span>
+                    <span class="badge rounded-pill bg-secondary"
+                      >JavaScript</span
+                    >
                   </li>
                 </ul>
               </div>
@@ -216,16 +310,34 @@
     <div class="container bg-white">
       <div class="row">
         <div class="col-6">
-          <h2>About <br> Myself</h2>
-          <p class="">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+          <h2>
+            About <br />
+            Myself
+          </h2>
+          <p class="">
+            Hello I’m a software developer! I can help you build a product ,
+            feature or website Look through some of my work and experience! If
+            you like what you see and have a project you need coded, don’t
+            hestiate to contact me.
+          </p>
           <h3 class="text-uppercase text-primary">Let's Connect</h3>
           <div class="d-grid gap-1 d-md-flex justify-content-md-start">
             <ul class="list-group list-group-horizontal me-auto">
-              <li class="list-group-item border-0"><img src="assets/images/git.svg" alt="Git logo"></li>
-              <li class="list-group-item border-0"><img src="assets/images/linkedin.svg" alt="Linkedin logo"></li>
-              <li class="list-group-item border-0"><img src="assets/images/angelist.svg" alt="Angelist logo"></li>
-              <li class="list-group-item border-0"><img src="assets/images/twitter.svg" alt="Twitter logo"></li>
-              <li class="list-group-item border-0"><img src="assets/images/medium.svg" alt="Medium logo"></li>              
+              <li class="list-group-item border-0">
+                <img src="assets/images/git.svg" alt="Git logo" />
+              </li>
+              <li class="list-group-item border-0">
+                <img src="assets/images/linkedin.svg" alt="Linkedin logo" />
+              </li>
+              <li class="list-group-item border-0">
+                <img src="assets/images/angelist.svg" alt="Angelist logo" />
+              </li>
+              <li class="list-group-item border-0">
+                <img src="assets/images/twitter.svg" alt="Twitter logo" />
+              </li>
+              <li class="list-group-item border-0">
+                <img src="assets/images/medium.svg" alt="Medium logo" />
+              </li>
             </ul>
           </div>
           <button type="button" class="btn btn-light">Get My Resume</button>
@@ -233,60 +345,94 @@
         <div class="col-6">
           <div class="card border-0">
             <div class="card-body gap-5 mb-3">
-              <h5 class="card-title mb-4 p-2 d-flex justify-content-between">Languages <i class="fa-sharp fa-solid fa-chevron-down "></i></h5>
+              <h5 class="card-title mb-4 p-2 d-flex justify-content-between">
+                Languages <i class="fa-sharp fa-solid fa-chevron-down"></i>
+              </h5>
               <div class="row d-flex gap-3 justify-content-center">
                 <div class="col bg-light rounded">
-                  <img src="assets/images/js.png" alt="" class="p-1">
+                  <img src="assets/images/js.png" alt="" class="p-1" />
                   <p class="p-1">JavaScript</p>
                 </div>
                 <div class="col bg-light rounded">
-                  <img src="assets/images/html.png" alt="" class="p-1">
+                  <img src="assets/images/html.png" alt="" class="p-1" />
                   <p class="p-1">HTML</p>
                 </div>
                 <div class="col bg-light rounded">
-                  <img src="assets/images/html.png" alt="" class="p-1">
+                  <img src="assets/images/html.png" alt="" class="p-1" />
                   <p class="p-1">CSS</p>
-                </div>              
+                </div>
               </div>
             </div>
             <ul class="list-group list-group-flush border-0">
-              <li class="list-group-item"> <h5 class="card-title p-4 d-flex justify-content-between">Frameworks <i class="fa-sharp fa-solid fa-chevron-right"></i></h5></li>
-              <li class="list-group-item border-bottom"><h5 class="card-title p-4 d-flex justify-content-between">Skills <i class="fa-sharp fa-solid fa-chevron-right"></i></h5></li>
-              
+              <li class="list-group-item">
+                <h5 class="card-title p-4 d-flex justify-content-between">
+                  Frameworks <i class="fa-sharp fa-solid fa-chevron-right"></i>
+                </h5>
+              </li>
+              <li class="list-group-item border-bottom">
+                <h5 class="card-title p-4 d-flex justify-content-between">
+                  Skills <i class="fa-sharp fa-solid fa-chevron-right"></i>
+                </h5>
+              </li>
             </ul>
-            
           </div>
         </div>
       </div>
     </div>
 
-    <div class="container d-flex justify-content-center bg-secondary text-white p-5">
+    <div
+      class="container d-flex justify-content-center bg-secondary text-white p-5"
+    >
       <div class="row text-center p-5">
         <h2 class="mt-5">Contact me</h2>
-        <p class="px-5">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
+        <p class="px-5">
+          If you have an application you are interested in developing, a feature
+          that you need built or a project that needs coding. I’d love to help
+          with it
+        </p>
         <form>
           <div class="form-group my-3">
             <label for="fullname" class="w-100">
-              <input type="text" class="form-control" id="fullname" maxlength="30" placeholder="Fullname" value="Alexandra Loremipsum" required>
+              <input
+                type="text"
+                class="form-control"
+                id="fullname"
+                maxlength="30"
+                placeholder="Fullname"
+                value="Alexandra Loremipsum"
+                required
+              />
             </label>
           </div>
           <div class="form-group my-3">
             <label for="email" class="w-100">
-             <input type="email" class="form-control" id="email" placeholder="Email Addresss" value="alexandra@gmail.com" required>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="Email Addresss"
+                value="alexandra@gmail.com"
+                required
+              />
             </label>
           </div>
           <div class="form-group my-3">
             <label for="message" class="w-100">
-              <textarea class="form-control" id="message" name="message" maxlength="500" placeholder="Write your message here" rows="3" required></textarea>
+              <textarea
+                class="form-control"
+                id="message"
+                name="message"
+                maxlength="500"
+                placeholder="Write your message here"
+                rows="3"
+                required
+              ></textarea>
             </label>
           </div>
-          
+
           <button type="submit" class="btn btn-light">Get in touch</button>
         </form>
       </div>
-      
     </div>
-    
-
   </body>
 </html>
