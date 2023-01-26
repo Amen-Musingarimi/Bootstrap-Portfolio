@@ -1,49 +1,85 @@
+.git-logo {
+  padding-right: 16px;
+}
+
+.languages {
+  font-weight: 500;
+  font-size: 15px;
+}
+
 .bg-image {
-    height: calc(100vh - 64px);
-    background: #fff url("assets/images/Headerbg@2x.png") no-repeat top center;
-    background-size: contain;
-    margin-left: -1rem;
-    margin-right: -1rem;
-    padding: 10rem;
-    border-bottom-left-radius: 120px;
-  }
-  
-  .banner-wrap {
-      padding: 3rem;
-    }
-  
-    .banner-wrap-col {
-      padding: 3rem;
-  }
-  
-  @media screen and (max-width: 780px) {
-    .bg-image {            
-        background: url("assets/images/header-shapes-mobile@2x.svg") no-repeat top center;
-        background-size: cover;
-        padding: 3rem;
-      }
-  
-      .banner-wrap {
-        padding: 10px;
-      }
-  
-      .banner-wrap-col {
-          padding: 10px;
-      }
+  height: calc(100vh - 64px);
+  background: #fff url('assets/images/Headerbg@2x.png') no-repeat top center;
+  background-size: contain;
+  margin-left: -1rem;
+  margin-right: -1rem;
+  padding: 10rem;
+  border-bottom-left-radius: 120px;
+}
+
+.banner-wrap {
+  padding: 3rem;
+}
+
+.banner-wrap-col {
+  padding: 3rem;
+}
+
+.input-field {
+  min-height: 48px;
+}
+
+.textarea-field {
+  min-height: 600px;
+}
+
+.contact-page {
+  border-top-left-radius: 80px;
+}
+
+.about-page {
+  border-top-right-radius: 80px;
+  padding-top: 50px;
+}
+
+@media screen and (max-width: 780px) {
+  .bg-image {
+    background: url('assets/images/header-shapes-mobile@2x.svg') no-repeat top
+      center;
+    background-size: cover;
+    padding: 3rem;
   }
 
-  @media screen and (max-width: 480px) {
-    .bg-image {            
-        background: url("assets/images/header-shapes-mobile@2x.svg") no-repeat center center;
-        background-size: contain;
-        padding: 3rem;
-      }
-  
-      .banner-wrap {
-        padding: 30px;
-      }
-  
-      .banner-wrap-col {
-          padding: 30px;
-      }
+  .banner-wrap {
+    padding: 10px;
   }
+
+  .banner-wrap-col {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .bg-image {
+    background: url('assets/images/header-shapes-mobile@2x.svg') no-repeat
+      center center;
+    background-size: contain;
+    padding: 3rem;
+  }
+
+  .banner-wrap {
+    padding: 30px;
+  }
+
+  .banner-wrap-col {
+    padding: 30px;
+  }
+}
+
+@media screen and (min-width: 988px) {
+  .form-width {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
