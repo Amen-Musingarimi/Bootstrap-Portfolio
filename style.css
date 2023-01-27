@@ -39,7 +39,7 @@
 
 .contact-page {
   border-top-left-radius: 80px;
-  background-image: url("assets/images/contactformbackgroundshapes@2x.png");
+  background-image: url('assets/images/contactformbackgroundshapes@2x.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
@@ -54,8 +54,9 @@
 
 @media screen and (max-width: 780px) {
   .bg-image {
-    background: url('assets/images/header-shapes-mobile@2x.svg') no-repeat top
-      center;
+    background: url('assets/images/header-shapes-mobile@2x.svg');
+    background-repeat: no-repeat;
+    background-position: top center;
     background-size: cover;
     padding: 3rem;
   }
@@ -69,7 +70,7 @@
   }
 
   .contact-page {
-    background-image: url("assets/images/contactformshapesmobile@2x.png");
+    background-image: url('assets/images/contactformshapesmobile@2x.png');
     background-repeat: no-repeat;
     background-position: top right;
   }
@@ -77,8 +78,9 @@
 
 @media screen and (max-width: 480px) {
   .bg-image {
-    background: url('assets/images/header-shapes-mobile@2x.svg') no-repeat
-      center center;
+    background: url('assets/images/header-shapes-mobile@2x.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
     background-size: contain;
     padding: 3rem;
   }
@@ -92,7 +94,7 @@
   }
 
   .contact-page {
-    background-image: url("assets/images/contactformshapesmobile@2x.png");
+    background-image: url('assets/images/contactformshapesmobile@2x.png');
     background-repeat: no-repeat;
     background-position: top right;
   }
