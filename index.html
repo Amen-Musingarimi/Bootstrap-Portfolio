@@ -510,9 +510,9 @@
 
     <!-- ----------------------------------------The Contact Page------------------------------------ -->
     <div
-      class="container d-flex justify-content-center bg-primary text-white p-5 contact-page"
+      class="d-flex justify-content-center bg-primary text-white contact-page"
     >
-      <div class="row min-vw-50">
+      <div class="row min-vw-50 p-5 mb-5">
         <h2 class="mt-5 text-center">Contact me</h2>
         <p class="px-5 text-center mb-4">
           If you have an application you are interested in developing, a feature
@@ -548,7 +548,12 @@
                 rows="3"
                 required
               ></textarea>
-              <button type="submit" class="btn btn-light">Get in touch</button>
+              <div class="row">
+                <div class="col text-center">
+                  <button type="submit" class="btn btn-light">Get in touch</button>
+                </div>
+              </div>
+              
             </div>
           </form>
         </div>
