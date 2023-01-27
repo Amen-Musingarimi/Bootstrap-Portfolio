@@ -25,6 +25,10 @@
   padding: 3rem;
 }
 
+.contact-form label {
+  display: block;
+}
+
 .input-field {
   min-height: 48px;
 }
@@ -35,6 +39,12 @@
 
 .contact-page {
   border-top-left-radius: 80px;
+  background-image: url("assets/images/contactformbackgroundshapes@2x.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 5rem 5rem;
+  width: 100%;
 }
 
 .about-page {
@@ -57,6 +67,12 @@
   .banner-wrap-col {
     padding: 10px;
   }
+
+  .contact-page {
+    background-image: url("assets/images/contactformshapesmobile@2x.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -73,6 +89,12 @@
 
   .banner-wrap-col {
     padding: 30px;
+  }
+
+  .contact-page {
+    background-image: url("assets/images/contactformshapesmobile@2x.png");
+    background-repeat: no-repeat;
+    background-position: top right;
   }
 }
 
